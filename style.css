@@ -4,7 +4,7 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
+.header, .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +12,7 @@ body {
     height: 50px;
     margin: 0;
     padding: 10px 70px;
+    gap: 30px;
 }
 
 .header h3 {
@@ -24,8 +25,34 @@ body {
     gap: 8px;
 }
 
-.header a {
+.header a, .hero-card p {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero {
+    height: 500px;
+}
+
+.hero img {
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.hero-card h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
 }
