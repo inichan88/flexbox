@@ -55,4 +55,41 @@ button {
     font-size: 15px;
     font-weight: 600;
     border: none;
+    margin-top: 15px;
+}
+
+.info {
+    margin: 0;
+    padding: 10px 70px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-basis: 230px;
+}
+
+.card img {
+    height: 220px;
+    width: 220px;
+}
+
+.card p {
+    text-align: center;
 }
